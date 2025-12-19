@@ -61,7 +61,7 @@ jobs:
             version: '5.0.0'
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v6
+      uses: actions/checkout@v6.0.1
     
     - name: Setup Liquibase
       id: setup-liquibase
@@ -142,7 +142,7 @@ jobs:
     
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v6
+      uses: actions/checkout@v6.0.1
     
     - name: Setup Node.js Environment
       uses: actions/setup-node@v6
@@ -332,7 +332,7 @@ jobs:
     
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v6
+      uses: actions/checkout@v6.0.1
     
     - name: Setup Node.js Environment
       uses: actions/setup-node@v6
@@ -447,7 +447,7 @@ jobs:
     
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v6
+      uses: actions/checkout@v6.0.1
     
     - name: Configure AWS credentials for vault access
       uses: aws-actions/configure-aws-credentials@v5
@@ -600,7 +600,7 @@ jobs:
     
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v6
+      uses: actions/checkout@v6.0.1
     
     - name: Setup Node.js Environment
       uses: actions/setup-node@v6
